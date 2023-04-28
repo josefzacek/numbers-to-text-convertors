@@ -1,0 +1,19 @@
+:root {
+  --yellow: #ffeb16;
+}
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--yellow);
+}
+
+@media(min-width: 992px){
+  .container {
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
