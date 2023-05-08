@@ -21,14 +21,14 @@
         </div>
 
         <div class="col-10 col-lg-5 d-flex flex-column justify-content-center p-4 p-lg-5 shadow mb-5 m-lg-5">
-          <h1>Type number/s here</h1>
-          <input inputmode="numeric" oninput="this.value = this.value.replace(/\D+/g, '')" maxlength="15" class="user-input">
-          <h3>Converted numbers to text</h3>
-          <textarea class="txt-one" rows="4" cols="80"></textarea>
-          <button type="button" name="button" class="copy-text-one-button">Copy</button>
-          <h3>Converted number to text</h3>
-          <textarea class="txt-two" id="text-two" rows="4" cols="80"></textarea>
-          <button type="button" name="button" class="copy-text-two-button">Copy</button>
+          <h3>Type number/s here</h3>
+          <input inputmode="numeric" class="form-control mb-4 border-dark" oninput="this.value = this.value.replace(/\D+/g, '')" maxlength="15" class="user-input" placeholder="365">
+          <h4>Converted numbers to text</h4>
+          <textarea class="txt-one form-control border-dark" rows="4" cols="80" placeholder="three six five"></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-one-button"><span>Copy</span></button>
+          <h4>Converted number to text</h4>
+          <textarea class="txt-two form-control border-dark" id="text-two" rows="4" cols="80" placeholder="three hundred and sixty-five"></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-two-button">Copy</button>
         </div>
       </div>
     </div>
