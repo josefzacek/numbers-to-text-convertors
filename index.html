@@ -11,8 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="bg-black d-flex flex-column justify-content-center m-3 min-vh-100">
-    <div class="container d-lg-flex align-items-center my-5 my-lg-0">
+  <body class="bg-black d-flex flex-column justify-content-center min-vh-100">
+    <div class="container d-lg-flex align-items-center my-2 my-lg-0">
       <div class="row d-flex justify-content-around">
         <div class="col-lg-5 d-flex flex-column justify-content-center px-5 mt-5">
           <h1>Numbers to text convertor</h1>
@@ -24,11 +24,11 @@
           <h3>Type number/s here</h3>
           <input inputmode="numeric" class="form-control mb-4 border-dark user-input" oninput="this.value = this.value.replace(/\D+/g, '')" maxlength="15" class="user-input" placeholder="365">
           <h4>Converted numbers to text</h4>
-          <textarea class="txt-one form-control border-dark" rows="4" cols="80" placeholder="three six five"></textarea>
-          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-one-button"><span>Copy</span></button>
+          <textarea class="txt-one form-control border-dark" rows="4" cols="80" placeholder="three six five" readonly></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 disabled copy-text-one-button"><span>Copy</span></button>
           <h4>Converted number to text</h4>
-          <textarea class="txt-two form-control border-dark" id="text-two" rows="4" cols="80" placeholder="three hundred and sixty-five"></textarea>
-          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-two-button">Copy</button>
+          <textarea class="txt-two form-control border-dark" id="text-two" rows="4" cols="80" placeholder="three hundred and sixty-five" readonly></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 disabled copy-text-two-button">Copy</button>
         </div>
       </div>
     </div>
