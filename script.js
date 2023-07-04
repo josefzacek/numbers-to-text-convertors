@@ -25,7 +25,7 @@ $('input.user-input').on('input', function(e) {
     number += " ";
   }
 
-  $(".txt-two").val(txt.trim());
+  $(".txt-two").val(number.trim());
 
   function convertToWord(number) {
     switch (number) {
