@@ -24,11 +24,11 @@
           <h3>Type number/s here</h3>
           <input inputmode="numeric" class="form-control mb-4 border-dark user-input" oninput="this.value = this.value.replace(/\D+/g, '')" maxlength="15" class="user-input" placeholder="365">
           <h4>Converted numbers to text</h4>
-          <textarea class="txt-one form-control border-dark" rows="4" cols="80" placeholder="three six five"></textarea>
-          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-one-button"><span>Copy</span></button>
+          <textarea class="txt-one form-control border-dark" rows="4" cols="80" placeholder="three six five" readonly></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 disabled copy-text-one-button"><span>Copy</span></button>
           <h4>Converted number to text</h4>
-          <textarea class="txt-two form-control border-dark" id="text-two" rows="4" cols="80" placeholder="three hundred and sixty-five"></textarea>
-          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 copy-text-two-button">Copy</button>
+          <textarea class="txt-two form-control border-dark" id="text-two" rows="4" cols="80" placeholder="three hundred and sixty-five" readonly></textarea>
+          <button type="button" name="button" class="btn btn-outline-dark mb-4 mt-2 w-50 disabled copy-text-two-button">Copy</button>
         </div>
       </div>
     </div>
